@@ -12,7 +12,7 @@ do.cleanup=1
 do.cleanuponabort=0
 device.name1=ginkgo
 device.name2=
-supported.versions=11-16
+supported.versions=10-16
 supported.patchlevels=
 supported.vendorpatchlevels=
 '; } # end properties
