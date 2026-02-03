@@ -570,6 +570,9 @@ if [ "$(file_getprop anykernel.sh do.cleanup)" == 1 ]; then
   cleanup;
 fi;
 
-ui_print " " "Don't reboot or your device will explode :)!";
+ui_print "|===========================================|";
+ui_print "|  Neophyte Kernel Installed Successfully.  |";
+ui_print "=============================================";
+
 export PATH="$OLD_PATH";
 unset OLD_PATH OUTFD ZIPFILE;
